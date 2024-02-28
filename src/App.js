@@ -10,7 +10,7 @@ function App() {
       {stage > 0 ?<text className='q1'>You are loved...</text>: <></>}
       {stage > 1 ?<text className='q1'>You are beautiful...</text>: <></>}
       {stage > 2 ?<text className='q1'>You are kind...</text>: <></>}
-      {stage > 3 ?<text className='q1'>You are Barack Obama, the 45th president of the United States...</text>: <></>}
+      {stage > 3 ?<text className='q1'>You are Barack Obama, the 44th president of the United States...</text>: <></>}
       {stage > 4 ?<img className='img1' src = {require("./obamaquirky.png")}></img>: <></>}
       {stage > 5 ?<text className='q1'>Haha <it>quirky</it>.</text>: <></>}
       {stage > 6 ?<text className='q1'>You rock.</text>: <></>}
